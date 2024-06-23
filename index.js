@@ -854,7 +854,7 @@ ${metadata.desc}
                 }
                 console.log("chargement des commandes terminé ✅");
 
-                await activateCrons();
+                //await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
