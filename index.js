@@ -854,14 +854,14 @@ ${metadata.desc}
                 }
                 console.log("chargement des commandes terminé ✅");
 
-                //await activateCrons();
+                await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*VISHWA-MD IS CONNECTED ✅*
+*MASTER-MD IS CONNECTED ✅*
 
      
-║❒Creator: *VISHWA*
+║❒Creator: *SAHAN*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
 ║❒Time : ${temps} 
